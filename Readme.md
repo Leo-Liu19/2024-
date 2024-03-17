@@ -6,7 +6,7 @@
 
 ## LDA主题分析
 
-  本代码为报告中，进行LDA主题提取时使用的代码，具体代码使用步骤为：1. 先通过网络爬虫收集数据，保存在allData.csv文件中。2. 选定主题数，在LDA2文件中对主题数进行修改，运行代码后可观察到LDA主题提取的结果。
+  本代码为报告中，进行LDA主题提取时使用的代码，具体代码使用步骤为：1. 先通过网络爬虫收集数据，保存在allData.csv文件中。2. 选定主题数，在LDA2.py文件中对主题数进行修改，运行代码后可观察到LDA主题提取的结果。
 
   实际运用中，由于本团队只需要提取积极和消极两方的主题词，因此先使用Snownlp中的情感分析功能将allData.csv文件的评论数据分为negative_comments.csv和positive_comments.csv，这一步通过运行Divide data into two topic.py文件可以完成。然后在“词云图”中的Wordcloud.py文件中对应修改数据源，运行后取频率最高的十个词即为positive和negative的主题词。
 
