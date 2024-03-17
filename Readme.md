@@ -16,5 +16,5 @@
 
 ## 注
 
-  本代码中使用到了停用词表，停用词表来源于https://github.com/goto456/stopwords.git。
+  本代码中使用到了停用词表，停用词表来源于https://github.com/goto456/stopwords.git
   通过观察结果，添加了新的停用词以补充原停用词表。
